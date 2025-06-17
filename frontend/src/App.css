@@ -1,0 +1,13 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar h2 {
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
+}
+
+footer {
+  font-size: 0.9rem;
+}
