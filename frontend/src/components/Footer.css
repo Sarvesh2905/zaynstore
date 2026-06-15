@@ -1,0 +1,65 @@
+/* ─── Footer ─────────────────────────────────────────────────── */
+
+.footer {
+  background: var(--color-bg-alt);
+  border-top: 1px solid var(--color-border);
+  padding: 28px 0;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-logo {
+  width: 26px;
+  height: 26px;
+  background: linear-gradient(135deg, #0071e3, #5e5ce6);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+.footer-brand-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.footer-copy {
+  font-size: 0.78rem;
+  color: var(--color-text-tertiary);
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-links a {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  transition: color var(--transition-fast);
+}
+.footer-links a:hover { color: var(--color-accent); }
+
+@media (max-width: 600px) {
+  .footer-inner { flex-direction: column; text-align: center; }
+  .footer-links { flex-wrap: wrap; justify-content: center; }
+}
