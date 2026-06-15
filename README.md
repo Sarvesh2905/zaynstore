@@ -4,6 +4,9 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) web application built du
 
 This project helped me practice and solidify my full-stack development skills, featuring a complete Apple-minimal design system, JWT-based authentication, and a fully functional e-commerce storefront.
 
+**🌍 Live Demo:** [https://zayn-store1.netlify.app/](https://zayn-store1.netlify.app/)  
+**⚙️ Backend API:** [https://zaynstore.onrender.com](https://zaynstore.onrender.com)
+
 ![ZAYN Store Preview](https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&q=75)
 
 ## 🚀 Features
