@@ -3,7 +3,7 @@ import ProductCard from '../components/ProductCard';
 import { useAuth } from '../context/AuthContext';
 import './Home.css';
 
-const API = 'http://localhost:6001';
+const API = 'https://zaynstore.onrender.com';
 
 const SORT_OPTIONS = [
   { value: 'default', label: 'Featured' },

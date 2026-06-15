@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import './CrudManager.css';
 
-const API = 'http://localhost:6001';
+const API = 'https://zaynstore.onrender.com';
 
 const EMPTY_FORM = { name: '', price: '', description: '', image: '', category: '', brand: '', sizes: '', rating: '' };
 

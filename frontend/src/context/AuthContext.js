@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const AuthContext = createContext(null);
 
-const API = 'http://localhost:6001';
+const API = 'https://zaynstore.onrender.com';
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);

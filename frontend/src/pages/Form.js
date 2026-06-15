@@ -6,7 +6,7 @@ function Form() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:6001/upload", {
+    const res = await fetch("https://zaynstore.onrender.com/upload", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, price }),

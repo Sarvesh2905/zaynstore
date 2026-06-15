@@ -4,7 +4,7 @@ import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
 import './ProductDetail.css';
 
-const API = 'http://localhost:6001';
+const API = 'https://zaynstore.onrender.com';
 
 function ProductDetail() {
   const { id } = useParams();
