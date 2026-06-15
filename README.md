@@ -108,7 +108,7 @@ npm start
 5. Configure the build settings:
    - **Base directory**: `frontend`
    - **Build command**: `npm run build`
-   - **Publish directory**: `frontend/build`
+   - **Publish directory**: `build`
 6. Click **Deploy site**.
 
 ## 📌 Note
