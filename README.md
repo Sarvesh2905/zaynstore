@@ -81,6 +81,36 @@ npm start
 ```
 *The frontend runs on `http://localhost:3000`.*
 
+---
+
+## 🚀 Deployment Guide
+
+### Backend Deployment (Render)
+1. Create a new account on [Render](https://render.com/).
+2. Click **New +** and select **Web Service**.
+3. Connect your GitHub repository and select the `zaynstore` repo.
+4. Configure the service:
+   - **Root Directory**: `backend`
+   - **Build Command**: `npm install`
+   - **Start Command**: `node index.js`
+5. Under **Environment Variables**, add:
+   - `MONGO_URI`: Your MongoDB Atlas connection string.
+   - `JWT_SECRET`: Your secret key.
+   - `ADMIN_EMAIL`: `admin@zaynstore.com`
+6. Click **Create Web Service**. Once deployed, copy the Render URL (e.g., `https://zaynstore-api.onrender.com`).
+
+### Frontend Deployment (Netlify)
+1. Update your frontend code to use the deployed backend URL instead of `http://localhost:6001`. 
+   *(In files like `Home.js`, `ProductDetail.js`, `CrudManager.js`, `AuthContext.js`, etc.)*
+2. Create an account on [Netlify](https://www.netlify.com/).
+3. Click **Add new site** > **Import an existing project** and connect GitHub.
+4. Select the `zaynstore` repo.
+5. Configure the build settings:
+   - **Base directory**: `frontend`
+   - **Build command**: `npm run build`
+   - **Publish directory**: `frontend/build`
+6. Click **Deploy site**.
+
 ## 📌 Note
 
 This project is for learning purposes only and was developed as part of my internship to practice MERN stack development and modern UI/UX principles.
